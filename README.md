@@ -16,12 +16,15 @@ the Paul P. Feder Observatory.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/msumastro-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/msumastro-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/msumastro-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/msumastro-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/msumastro/badges/version.svg)](https://anaconda.org/conda-forge/msumastro)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/msumastro/badges/downloads.svg)](https://anaconda.org/conda-forge/msumastro)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-msumastro-green.svg)](https://anaconda.org/conda-forge/msumastro) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/msumastro.svg)](https://anaconda.org/conda-forge/msumastro) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/msumastro.svg)](https://anaconda.org/conda-forge/msumastro) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/msumastro.svg)](https://anaconda.org/conda-forge/msumastro) |
 
 Installing msumastro
 ====================
