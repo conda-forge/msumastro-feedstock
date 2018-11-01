@@ -1,8 +1,8 @@
 {% set name = "msumastro" %}
-{% set version = "0.9.13" %}
+{% set version = "0.9.14" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "be652c92c4ee29c7ba1bac43f3a0c8c750156ca5ca6d31a2c944974892e2afbc" %}
+{% set hash_value = "0d4c1549b808c47371e634b84fe9e3f9e5cfbd7a65d9d7e1efba1b5830749d6c" %}
 
 package:
   name: '{{ name|lower }}'
