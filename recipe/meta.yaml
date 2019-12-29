@@ -1,17 +1,13 @@
 {% set name = "msumastro" %}
 {% set version = "1.0.0" %}
-{% set file_ext = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash_value = "e2f3df4a6aad1d394b25aae1719ca9ef715b58d252559df911664a8c8581a19e" %}
 
 package:
   name: '{{ name|lower }}'
   version: '{{ version }}'
 
 source:
-  fn: '{{ name }}-{{ version }}.{{ file_ext }}'
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ file_ext }}
-  '{{ hash_type }}': '{{ hash_value }}'
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: e2f3df4a6aad1d394b25aae1719ca9ef715b58d252559df911664a8c8581a19e
 
 build:
   noarch: python
@@ -32,7 +28,7 @@ requirements:
     - pip
   run:
     - python
-    - astropy >=2
+    - astropy >=3.2.2
     - numpy
     - ccdproc >=1.2
 
