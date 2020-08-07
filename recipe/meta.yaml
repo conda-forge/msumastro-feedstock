@@ -1,5 +1,5 @@
 {% set name = "msumastro" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: '{{ name|lower }}'
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e2f3df4a6aad1d394b25aae1719ca9ef715b58d252559df911664a8c8581a19e
+  sha256: e6beb25b143a418deaad065fbe648f8adcd98a8975259ac96a19801073633962
 
 build:
   noarch: python
@@ -46,7 +46,7 @@ test:
 
 about:
   home: http://github.com/mwcraig/msumastro
-  license: 3-clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: 'LICENSE.rst'
   summary: Tools for doing preliminary processing of images from Feder Observatory.

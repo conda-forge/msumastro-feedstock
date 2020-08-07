@@ -5,7 +5,7 @@ Home: http://github.com/mwcraig/msumastro
 
 Package license: 3-clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Tools for doing preliminary processing of images from Feder Observatory.
 
