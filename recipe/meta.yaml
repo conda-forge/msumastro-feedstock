@@ -46,7 +46,7 @@ test:
 
 about:
   home: http://github.com/mwcraig/msumastro
-  license: 3-clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: 'LICENSE.rst'
   summary: Tools for doing preliminary processing of images from Feder Observatory.
