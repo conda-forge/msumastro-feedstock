@@ -1,5 +1,5 @@
 {% set name = "msumastro" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: '{{ name|lower }}'
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e6beb25b143a418deaad065fbe648f8adcd98a8975259ac96a19801073633962
+  sha256: 96bccd78fc7d08f1416e23ea06ab260a17a0096d470121730a1d6359eac58886
 
 build:
   noarch: python
