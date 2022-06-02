@@ -1,13 +1,13 @@
 {% set name = "msumastro" %}
-{% set version = "1.1.4" %}
+{% set version = "1.1.5" %}
 
 package:
-  name: '{{ name|lower }}'
-  version: '{{ version }}'
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: dbeebec6ac67f44c9d9badc4e499cd637496c6aef82781aa0b9e7fe107cc3c0e
+  sha256: 11aefffafe4460c57c076189e864620d04f8022e0dbdf433a9ae32ac7ac2de22
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python >=3.7
     - setuptools
     - pip
@@ -48,7 +48,7 @@ about:
   home: http://github.com/mwcraig/msumastro
   license: BSD-3-Clause
   license_family: BSD
-  license_file: 'LICENSE.rst'
+  license_file: LICENSE.rst
   summary: Tools for doing preliminary processing of images from Feder Observatory.
   description: |
     The MSUM astro library contains scripts for add metada and astrometry to images from
