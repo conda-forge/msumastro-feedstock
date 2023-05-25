@@ -1,11 +1,11 @@
-About msumastro
-===============
+About msumastro-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/msumastro-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/mwcraig/msumastro
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/msumastro-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools for doing preliminary processing of images from Feder Observatory.
 
