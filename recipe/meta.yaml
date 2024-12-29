@@ -6,12 +6,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 898a92fbdec2e86a573d32ec76e5b15a0758b88901f3cbad1782db10d4ac84b3
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - quick_add_keys_to_file.py = msumastro.scripts.quick_add_keys_to_file:main
     - run_patch.py = msumastro.scripts.run_patch:main
@@ -23,16 +23,18 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - setuptools
     - pip
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - astropy >=3.2.2
     - numpy
     - ccdproc >=1.2
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - msumastro
     - msumastro.header_processing
