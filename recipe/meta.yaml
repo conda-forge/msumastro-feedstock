@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - quick_add_keys_to_file.py = msumastro.scripts.quick_add_keys_to_file:main
     - run_patch.py = msumastro.scripts.run_patch:main
@@ -28,7 +28,7 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - astropy >=3.2.2
+    - astropy-base >=3.2.2
     - numpy
     - ccdproc >=1.2
 
