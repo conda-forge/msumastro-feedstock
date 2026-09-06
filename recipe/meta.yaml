@@ -1,5 +1,5 @@
 {% set name = "msumastro" %}
-{% set version = "1.3.0" %}
+{% set version = "1.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ee00d1c21a59d8a10fd3fabb2383a31c72d2f1d5cc7ee2722ad0ddb9bac9c6ea
+  sha256: 936d6452d085f87ea3944c4f56da6cb18ddf7964b7a53827569799a718df22c0
 
 build:
   noarch: python
